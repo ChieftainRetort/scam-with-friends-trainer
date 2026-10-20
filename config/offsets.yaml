@@ -1,0 +1,18 @@
+# Game build: 2026.02.11-rc3
+# Update these after every patch. If offsets are stale the trainer will
+# refuse to attach (see services/attach_service.py).
+player:
+  base: 0x00A3F1C0
+  health: 0x1C
+  inventory_ptr: 0x2A8
+inventory:
+  slots: 0x40
+  item_count: 0x8
+  item_id_stride: 0x18
+trade:
+  window_ptr: 0x00B112A8
+  peer_name: 0x14
+  confirm_flag: 0x30
+chat:
+  buffer: 0x00C40A20
+  line_stride: 0x120
