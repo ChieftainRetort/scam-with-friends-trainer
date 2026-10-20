@@ -1,0 +1,1 @@
+"""Ingest handlers — pull raw state from the game each tick."""
