@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scam With Your Friends Trainer — Fake-Money &amp; Troll-Payout Cheats for Windows</title>
+<meta name="description" content="Scam With Your Friends Trainer: fake-money, scam-minigame, troll-payout and host-tools cheats for chaotic multiplayer fun. Free, open source, Windows 10/11.">
+<style>
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --bg-deep: #070b1a;
+    --bg-mid: #0d1330;
+    --bg-char: #141a2e;
+    --indigo: #6366f1;
+    --violet: #a855f7;
+    --cyan: #22d3ee;
+    --text: #e8ecf8;
+    --muted: #9aa4c4;
+    --card: rgba(255, 255, 255, 0.045);
+    --card-border: rgba(255, 255, 255, 0.09);
+    --radius: 18px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    color: var(--text);
+    background:
+      radial-gradient(1100px 600px at 12% -8%, rgba(99, 102, 241, 0.28), transparent 60%),
+      radial-gradient(900px 520px at 92% 4%, rgba(168, 85, 247, 0.20), transparent 62%),
+      radial-gradient(1000px 700px at 50% 108%, rgba(34, 211, 238, 0.12), transparent 65%),
+      linear-gradient(165deg, var(--bg-deep) 0%, var(--bg-mid) 45%, var(--bg-char) 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  .wrap {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ---------- NAV ---------- */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(18px) saturate(160%);
+    -webkit-backdrop-filter: blur(18px) saturate(160%);
+    background: rgba(10, 14, 32, 0.62);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  }
+
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 68px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    font-size: 1.02rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+
+  .brand-mark {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: linear-gradient(135deg, var(--indigo), var(--violet));
+    box-shadow: 0 6px 18px rgba(99, 102, 241, 0.45);
+    flex: 0 0 auto;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    position: relative;
+  }
+
+  .nav-links a:hover {
+    color: #fff;
+  }
+
+  .nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, var(--cyan), var(--violet));
+    transition: width 0.25s ease;
+  }
+
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    border: none;
+    border-radius: 12px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 0.92rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.18s ease, box-shadow 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+    white-space: nowrap;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background: linear-gradient(135deg, var(--indigo) 0%, var(--violet) 100%);
+    box-shadow: 0 10px 26px rgba(99, 102, 241, 0.38), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 36px rgba(139, 92, 246, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  }
+
+  .btn-primary:active {
+    transform: translateY(0);
+  }
+
+  .btn-nav {
+    padding: 10px 20px;
+    font-size: 0.88rem;
+  }
+
+  .btn-ghost {
+    color: var(--text);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+  }
+
+  .btn-ghost:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    padding: 92px 0 74px;
+    text-align: center;
+    position: relative;
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 17px;
+    border-radius: 999px;
+    font-size: 0.79rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #cfd6ff;
+    background: rgba(99, 102, 241, 0.13);
+    border: 1px solid rgba(129, 140, 248, 0.38);
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.06);
+    margin-bottom: 28px;
+  }
+
+  .pill .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--cyan);
+    box-shadow: 0 0 10px var(--cyan);
+    animation: pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.45; transform: scale(0.82); }
+  }
+
+  h1 {
+    font-size: clamp(2.35rem, 6.2vw, 4.15rem);
+    line-height: 1.06;
+    letter-spacing: -0.035em;
+    font-weight: 800;
+    max-width: 900px;
+    margin: 0 auto 24px;
+    background: linear-gradient(100deg, #ffffff 0%, #c7d2fe 34%, #a5b4fc 55%, #c084fc 78%, #67e8f9 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  .hero p.lead {
+    max-width: 660px;
+    margin: 0 auto 38px;
+    color: var(--muted);
+    font-size: clamp(1rem, 1.9vw, 1.13rem);
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 52px;
+  }
+
+  .btn-hero {
+    padding: 16px 32px;
+    font-size: 1rem;
+    border-radius: 14px;
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    max-width: 830px;
+    margin: 0 auto;
+  }
+
+  .stat {
+    padding: 18px 14px;
+    border-radius: 14px;
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .stat strong {
+    display: block;
+    font-size: 1.16rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    background: linear-gradient(90deg, #fff, #b6c0ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+  }
+
+  .stat span {
+    display: block;
+    margin-top: 3px;
+    font-size: 0.73rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+  }
+
+  /* ---------- SECTION SHELL ---------- */
+  section {
+    padding: 74px 0;
+  }
+
+  .section-head {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .kicker {
+    display: block;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #8b95ff;
+    margin-bottom: 12px;
+  }
+
+  .section-head h2 {
+    font-size: clamp(1.65rem, 3.6vw, 2.35rem);
+    letter-spacing: -0.028em;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  .section-head p {
+    margin: 12px auto 0;
+    max-width: 560px;
+    color: var(--muted);
+    font-size: 0.98rem;
+  }
+
+  /* ---------- FEATURES ---------- */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .feature-card {
+    position: relative;
+    padding: 28px 24px 30px;
+    border-radius: var(--radius);
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    overflow: hidden;
+    transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.28s ease, border-color 0.28s ease;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .feature-card::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--indigo), var(--violet), var(--cyan));
+    opacity: 0.85;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-7px);
+    border-color: rgba(129, 140, 248, 0.42);
+    box-shadow: 0 22px 44px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(129, 140, 248, 0.18);
+  }
+
+  .feature-icon {
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 13px;
+    font-size: 1.42rem;
+    margin-bottom: 18px;
+    background: linear-gradient(140deg, rgba(99, 102, 241, 0.24), rgba(168, 85, 247, 0.16));
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .feature-card h3 {
+    font-size: 1.03rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 9px;
+    letter-spacing: -0.012em;
+  }
+
+  .feature-card p {
+    font-size: 0.89rem;
+    color: var(--muted);
+    line-height: 1.62;
+  }
+
+  /* ---------- HOW IT WORKS ---------- */
+  .steps {
+    position: relative;
+    max-width: 720px;
+    margin: 0 auto;
+    padding-left: 62px;
+  }
+
+  .steps::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: 12px;
+    bottom: 12px;
+    width: 3px;
+    border-radius: 3px;
+    background: linear-gradient(180deg, var(--indigo) 0%, var(--violet) 50%, var(--cyan) 100%);
+    box-shadow: 0 0 18px rgba(129, 140, 248, 0.45);
+  }
+
+  .step {
+    position: relative;
+    padding: 0 0 42px 0;
+  }
+
+  .step:last-child {
+    padding-bottom: 0;
+  }
+
+  .step-num {
+    position: absolute;
+    left: -62px;
+    top: -2px;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-weight: 800;
+    font-size: 0.98rem;
+    color: #fff;
+    background: linear-gradient(140deg, #1b2249, #2a2160);
+    border: 1.5px solid rgba(139, 92, 246, 0.55);
+    box-shadow: 0 0 0 5px rgba(13, 19, 48, 0.9), 0 0 24px rgba(129, 140, 248, 0.3);
+  }
+
+  .step h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 6px;
+  }
+
+  .step p {
+    font-size: 0.91rem;
+    color: var(--muted);
+    max-width: 540px;
+  }
+
+  /* ---------- FAQ ---------- */
+  .faq-list {
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  details {
+    border-radius: 14px;
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    overflow: hidden;
+    transition: border-color 0.25s ease, background 0.25s ease;
+  }
+
+  details[open] {
+    border-color: rgba(129, 140, 248, 0.42);
+    background: rgba(99, 102, 241, 0.07);
+  }
+
+  summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px 22px;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #eef1ff;
+    user-select: none;
+    transition: color 0.2s ease;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary:hover {
+    color: #fff;
+  }
+
+  .plus {
+    flex: 0 0 auto;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .plus::before,
+  .plus::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 2px;
+    background: linear-gradient(90deg, var(--cyan), var(--violet));
+  }
+
+  .plus::before {
+    width: 15px;
+    height: 2px;
+    transform: translate(-50%, -50%);
+  }
+
+  .plus::after {
+    width: 2px;
+    height: 15px;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.25s ease;
+  }
+
+  details[open] .plus {
+    transform: rotate(45deg);
+  }
+
+  details[open] .plus::after {
+    opacity: 0;
+  }
+
+  .faq-answer {
+    padding: 0 22px 20px;
+    font-size: 0.89rem;
+    color: var(--muted);
+    line-height: 1.68;
+    max-width: 620px;
+  }
+
+  /* ---------- CTA BANNER ---------- */
+  .cta-banner {
+    position: relative;
+    padding: 62px 40px;
+    border-radius: 26px;
+    text-align: center;
+    overflow: hidden;
+    background: linear-gradient(150deg, rgba(99, 102, 241, 0.16), rgba(168, 85, 247, 0.11) 55%, rgba(34, 211, 238, 0.09));
+    border: 1px solid rgba(129, 140, 248, 0.3);
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.5);
+  }
+
+  .cta-banner::before {
+    content: "";
+    position: absolute;
+    top: -55%;
+    left: 50%;
+    width: 900px;
+    height: 900px;
+    transform: translateX(-50%);
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.34) 0%, rgba(99, 102, 241, 0.14) 38%, transparent 68%);
+    pointer-events: none;
+  }
+
+  .cta-banner > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .cta-banner h2 {
+    font-size: clamp(1.6rem, 3.8vw, 2.3rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: #fff;
+    margin-bottom: 14px;
+  }
+
+  .cta-banner p {
+    color: #b9c2e6;
+    max-width: 520px;
+    margin: 0 auto 30px;
+    font-size: 0.97rem;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    padding: 40px 0 46px;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    margin-top: 20px;
+  }
+
+  .footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  .footer-inner p {
+    font-size: 0.84rem;
+    color: var(--muted);
+  }
+
+  .footer-inner a {
+    color: #a5b4fc;
+    text-decoration: none;
+    font-size: 0.84rem;
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+
+  .footer-inner a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .footer-links {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+  }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 900px) {
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .nav-links {
+      display: none;
+    }
+
+    .nav-inner {
+      height: 62px;
+    }
+
+    .brand {
+      font-size: 0.92rem;
+    }
+
+    .btn-nav {
+      padding: 9px 15px;
+      font-size: 0.8rem;
+    }
+
+    .hero {
+      padding: 60px 0 54px;
+    }
+
+    .hero-actions {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .btn-hero {
+      width: 100%;
+      padding: 15px 24px;
+    }
+
+    .stats {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+
+    section {
+      padding: 54px 0;
+    }
+
+    .steps {
+      padding-left: 54px;
+    }
+
+    .steps::before {
+      left: 18px;
+    }
+
+    .step-num {
+      left: -54px;
+      width: 38px;
+      height: 38px;
+      font-size: 0.88rem;
+    }
+
+    .cta-banner {
+      padding: 44px 22px;
+      border-radius: 20px;
+    }
+
+    .footer-inner {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .footer-links {
+      justify-content: center;
+    }
+
+    summary {
+      padding: 16px 18px;
+      font-size: 0.9rem;
+    }
+
+    .faq-answer {
+      padding: 0 18px 18px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">🕵️</span>
+        Scam With Friends Trainer
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-primary btn-nav" href="https://gitscore.cc">Download</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="wrap">
+        <span class="pill"><span class="dot" aria-hidden="true"></span>Scam With Your Friends Trainer</span>
+        <h1>Fake Money. Real Chaos.<br>Train Your Friends.</h1>
+        <p class="lead">
+          A Windows trainer for Scam With Your Friends packed with fake-money injections,
+          scam-minigame shortcuts, troll-payout controls and host-tools — built for
+          chaotic multiplayer sessions with people you trust (sort of).
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-hero" href="https://gitscore.cc">⬇ Download for Windows</a>
+          <a class="btn btn-ghost btn-hero" href="https://gitscore.cc">View on GitHub</a>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <strong>128,400+</strong>
+            <span>Downloads</span>
+          </div>
+          <div class="stat">
+            <strong>v2.4.1</strong>
+            <span>Latest release</span>
+          </div>
+          <div class="stat">
+            <strong>Windows 10 / 11</strong>
+            <span>Platform</span>
+          </div>
+          <div class="stat">
+            <strong>Free &amp; open source</strong>
+            <span>License</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section id="features">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">Features</span>
+          <h2>Everything you need to scam your crew</h2>
+          <p>Six core modules, all toggleable in-game through a clean overlay. No restarts, no fuss.</p>
+        </div>
+        <div class="features-grid">
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">💵</div>
+            <h3>Fake-Money Injector</h3>
+            <p>Drop any amount of fake cash straight into your wallet. Set a value, hit apply, and watch the
