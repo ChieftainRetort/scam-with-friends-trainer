@@ -1,0 +1,1 @@
+"""Processors — transform raw game state into trainer events."""
