@@ -1,0 +1,1 @@
+"""Output drivers — push processed events to the user."""
