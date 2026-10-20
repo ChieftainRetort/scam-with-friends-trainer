@@ -1,0 +1,27 @@
+trainer:
+  name: scam-with-friends-trainer
+  version: 0.9.4
+  game_exe: "ScamWithFriends.exe"
+  attach_timeout_ms: 8000
+  log_level: INFO
+
+pipeline:
+  ingest_interval_ms: 50
+  processors:
+    - loot_spoofer
+    - trade_peek
+    - chat_injector
+  drivers:
+    - overlay_driver
+    - console_driver
+
+overlay:
+  enabled: true
+  font: "Cascadia Mono"
+  opacity: 0.85
+  anchor: "top_left"
+
+safety:
+  require_confirm_hotkey: true
+  panic_key: "F12"
+  disable_on_process_exit: true
